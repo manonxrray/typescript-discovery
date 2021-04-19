@@ -11,10 +11,11 @@ interface User {
   age?: number;
 }
 
-const wilders = [];
+const wilders: User[] = [];
 let user1: User = { name: "Pierre", age: 25 };
 let user2: User = { name: "Paul", age: 42 };
 let user3: User =  { name: "Jacques", age: 28 };
+
 wilders.push(user1, user2, user3);
 
 
